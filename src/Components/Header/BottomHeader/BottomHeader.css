@@ -1,0 +1,250 @@
+.navbar {
+  box-shadow: 0px 20px 5px -20px #db4444;
+  padding: 15px 0 12px 0 !important;
+  background-color: #fff;
+}
+.navbar .container {
+  position: relative;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 28px !important;
+  padding-right: 125px;
+  transition: color 0.5s;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+}
+/* .navbar-brand:hover {
+  color: #db4444 !important;
+} */
+.nav-item {
+  margin-right: 12px;
+  font-size: 18px;
+  position: relative;
+}
+.nav-item > a {
+  transition: font-weight 0.5s, color 0.5s;
+  -webkit-transition: font-weight 0.5s, color 0.5s;
+  -moz-transition: font-weight 0.5s, color 0.5s;
+  -ms-transition: font-weight 0.5s, color 0.5s;
+  -o-transition: font-weight 0.5s, color 0.5s;
+}
+.nav-item > a:hover {
+  color: #db4444 !important;
+}
+.form {
+  margin-right: 225px;
+  position: relative;
+}
+.search-input {
+  border: none;
+  background-color: #f5f5f5;
+  font-size: 10px;
+  width: 160px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.icon-item {
+  font-size: 22px;
+  margin-left: 10px;
+  padding-top: 5px;
+  transition: color 0.5s;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  cursor: pointer;
+}
+.icon-item:hover {
+  color: #db4444;
+}
+.header-icons-list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  position: absolute;
+  right: -203px;
+  top: -3px;
+}
+.header-icons-list li a {
+  display: block;
+  font-size: 22px;
+  color: #000;
+  margin-left: 18px;
+  transition: color 0.5s;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+}
+.header-icons-list li a:hover {
+  color: #db4444;
+}
+.header-icons-list li:last-of-type .last-li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.header-icons-list li:last-of-type .last-li button {
+  padding: 5px;
+  border: 2px solid #db4444;
+  background-color: #db4444;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: background-color 0.5s, color 0.5s;
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  -moz-transition: background-color 0.5s, color 0.5s;
+  -ms-transition: background-color 0.5s, color 0.5s;
+  -o-transition: background-color 0.5s, color 0.5s;
+}
+.header-icons-list li:last-of-type .last-li button:hover,
+.header-icons-list li:last-of-type .login-header:hover {
+  background-color: #fff;
+  color: #db4444;
+}
+.header-icons-list li:last-of-type .login-header {
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  padding: 5px 7px;
+  border: 2px solid #db4444;
+  background-color: #db4444;
+  font-weight: 600;
+  margin: 0 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: background-color 0.5s, color 0.5s;
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  -moz-transition: background-color 0.5s, color 0.5s;
+  -ms-transition: background-color 0.5s, color 0.5s;
+  -o-transition: background-color 0.5s, color 0.5s;
+}
+.wishlist-icon-header,
+.cart-icon-header {
+  position: relative;
+}
+.cart-notifications,
+.love-notifications {
+  position: absolute;
+  color: #fff;
+  background-color: red;
+  width: 22px;
+  height: 22px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.cart-notifications {
+  top: -8px;
+  right: -11px;
+}
+.love-notifications {
+  top: 16px;
+  right: -10px;
+}
+@media screen and (max-width: 1115px) {
+  .navbar-brand {
+    padding-right: 40px;
+  }
+  .form {
+    margin-right: 210px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .nav-item::after {
+    content: none;
+  }
+  .form {
+    margin-right: 0px;
+  }
+  .header-icons-list {
+    top: 60px;
+    left: 0;
+  }
+  .nav-item {
+    padding: 0px 15px;
+    margin: 0 0 15px 0;
+    transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .nav-item:first-child {
+    margin-top: 15px;
+  }
+  .nav-item > a {
+    transition: margin-left 0.5s;
+    -webkit-transition: margin-left 0.5s;
+    -moz-transition: margin-left 0.5s;
+    -ms-transition: margin-left 0.5s;
+    -o-transition: margin-left 0.5s;
+  }
+  .nav-item > a:hover {
+    margin-left: 10px;
+  }
+  .search-input {
+    width: 100%;
+    margin: 0 0px 80px 0;
+  }
+  .search-icon {
+    margin: 0 0px 15px 15px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .navbar-brand {
+    font-size: 25px !important;
+    padding-right: 0px;
+  }
+  .nav-item {
+    margin: 0 0 10px 0;
+  }
+  .icon-box {
+    right: 70px;
+  }
+  .navbar-toggler {
+    width: 40px;
+    padding: 5px !important;
+  }
+  .navbar-toggler-icon {
+    width: 25px !important;
+  }
+}
+@media screen and (max-width: 270px) {
+  .navbar-brand {
+    font-size: 25px !important;
+  }
+  .search-input {
+    font-size: 12px;
+    padding-right: 0;
+  }
+}
