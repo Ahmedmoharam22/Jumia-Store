@@ -21,8 +21,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import "./index.css";
 import Account from "./Routes/Account/Account";
-import Spinner from "./components/Spinner/Spinner";
 import { LazyLoading } from "./components/LazyLoading/LazyLoading";
+import Spinner from "./Components/Spinner/Spinner";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Router>
